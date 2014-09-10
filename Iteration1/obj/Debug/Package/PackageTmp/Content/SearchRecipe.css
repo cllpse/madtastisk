@@ -1,0 +1,11 @@
+﻿#searchrecipe
+{
+    margin: auto;
+    width: 960px;
+}
+
+#searchrecipe #ingredientssuggest, #searchrecipe #recipessuggest
+{
+    width: 800px;
+    margin-right: 10px;
+}

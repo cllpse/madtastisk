@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Iteration2" EntityNamespace="Iteration2.Entities" ContextNamespace="Iteration2" Class="DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Iteration2.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Iteration1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Recipes" Member="Recipes">
+    <Type Name="Recipe">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(2569) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Recipe_IngredientsRecipesRelation" Member="IngredientsRecipesRelations" ThisKey="Id" OtherKey="RecipeId" Type="IngredientsRecipesRelation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.IngredientsRecipesRelations" Member="IngredientsRecipesRelations">
+    <Type Name="IngredientsRecipesRelation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IngredientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RecipeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Recipe_IngredientsRecipesRelation" Member="Recipe" ThisKey="RecipeId" OtherKey="Id" Type="Recipe" IsForeignKey="true" />
+      <Association Name="Ingredient_IngredientsRecipesRelation" Member="Ingredient" ThisKey="IngredientId" OtherKey="Id" Type="Ingredient" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ingredients" Member="Ingredients">
+    <Type Name="Ingredient">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Ingredient_IngredientsRecipesRelation" Member="IngredientsRecipesRelations" ThisKey="Id" OtherKey="IngredientId" Type="IngredientsRecipesRelation" />
+    </Type>
+  </Table>
+</Database>

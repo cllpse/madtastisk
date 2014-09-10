@@ -1,0 +1,57 @@
+﻿#addrecipe
+{
+    margin: auto;
+    width: 660px;
+}
+
+#addrecipe div 
+{
+    float: left;
+    width: 330px;
+}
+
+#addrecipe .clear
+{
+    clear: left;
+}
+
+#addrecipe #recipe
+{
+}
+
+#addrecipe #ingredients
+{
+}
+
+#addrecipe #submitbutton
+{
+    margin-top: 40px;
+}
+
+#addrecipe #ingredients ul
+{
+    list-style: none;
+}
+
+#addrecipe #ingredients img
+{
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+#addrecipe textarea
+{
+    width: 260px;
+    height: 100px;
+}
+
+#addrecipe input[type=text]
+{
+    width: 200px;
+}
+
+#addrecipe dl
+{
+    margin-top: 12px;
+}

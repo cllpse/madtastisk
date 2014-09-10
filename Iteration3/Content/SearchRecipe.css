@@ -1,0 +1,48 @@
+﻿#searchrecipe
+{
+    margin: auto;
+    width: 960px;
+}
+
+#searchrecipe #ingredientssuggest, #searchrecipe #recipessuggest
+{
+    width: 810px;
+    margin-right: 10px;
+}
+
+#tabs ul a
+{
+    cursor: pointer !important;
+}
+
+#tabs .info
+{
+    width: 812px;
+    height: 35px;
+    padding: 4px;
+}
+
+#tabs p
+{
+    display: block;
+    float: left;
+    margin-bottom: 14px;
+    line-height: 1.2em;
+}
+
+#tabs p.icon
+{
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#introtext
+{
+    padding: 8px;
+}
+
+.highlight
+{
+    background-color: #F8F000;
+}

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Iteration3">
+  <DataContextMoniker Name="/DataContext" />
+  <nestedChildShapes>
+    <classShape Id="bbf86d4a-d54a-4b17-a1c9-1118346306eb" absoluteBounds="0.75, 3.75, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/DataContext/Ingredient" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c27e633-f03a-404f-a522-f38c312d0c6e" absoluteBounds="0.765, 4.21, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ac50af8-45a0-4bff-8984-ec0108cb6c9c" absoluteBounds="3.5, 0.875, 2, 1.26050048828125">
+      <DataClassMoniker Name="/DataContext/IngredientsRecipesRelation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0e12c45-b519-4d0d-af1a-f6d1207e3065" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1000e3dd-d154-4a28-bf35-3f436d937eac" absoluteBounds="0.75, 0.875, 2, 1.26050048828125">
+      <DataClassMoniker Name="/DataContext/Recipe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c85e6457-446c-4471-82fb-66a31c132a1a" absoluteBounds="0.765, 1.335, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.46242390950521); (4.5 : 4.46242390950521); (4.5 : 2.13550048828125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataContext/Ingredient/Ingredient_IngredientsRecipesRelation" />
+      <nodes>
+        <classShapeMoniker Id="bbf86d4a-d54a-4b17-a1c9-1118346306eb" />
+        <classShapeMoniker Id="6ac50af8-45a0-4bff-8984-ec0108cb6c9c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.50525024414063); (3.5 : 1.50525024414063)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataContext/Recipe/Recipe_IngredientsRecipesRelation" />
+      <nodes>
+        <classShapeMoniker Id="1000e3dd-d154-4a28-bf35-3f436d937eac" />
+        <classShapeMoniker Id="6ac50af8-45a0-4bff-8984-ec0108cb6c9c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

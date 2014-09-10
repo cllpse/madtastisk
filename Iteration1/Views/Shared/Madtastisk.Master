@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="Library" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <link href="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Content/reset.css" rel="stylesheet" type="text/css" />
+        <link href="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Content/header.css" rel="stylesheet" type="text/css" />
+        <link href="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Content/text.css" rel="stylesheet" type="text/css" />
+        <link href="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Content/jquery-ui-1.8.custom.css" rel="stylesheet" type="text/css" />
+
+        <script src="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Scripts/jquery-1.4.2.js" type="text/javascript"></script>
+        <script src="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Scripts/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
+        <script src="<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>Scripts/Auxiliary.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+        
+            Auxiliary.RELATIVE_PATH = "Iteration1/<%= "../".Repeat(Page.RouteData.Values.Count - 1) %>";
+
+        </script>
+        
+        <asp:ContentPlaceHolder runat="server" ID="cphHead" />
+        
+        <title>Iteration 1</title>
+    </head>
+
+    <body>
+        <asp:ContentPlaceHolder runat="server" ID="cphBody" />
+    </body>
+</html>

@@ -1,0 +1,204 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Views/d:Opskrifter/f:Alle.aspx" caret="857" fromTop="20" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Controllers/f:OpskrifterController.cs" caret="20956" fromTop="30" />
+      <File id="C0A21C2D-B95D-44AB-A189-440236994462/f:AlternateOutputAttribute.cs" caret="2220" fromTop="30" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Models/f:IngredientDTO.cs" caret="30" fromTop="0" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Scripts/f:AddRecipe.js" caret="2915" fromTop="18" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Common/f:Auxiliary.cs" caret="1438" fromTop="35" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Views/d:Shared/f:IngredientsSuggest.ascx" caret="187" fromTop="3" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Scripts/f:IngredientsSuggest.js" caret="2596" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Controllers/f:OpskrifterController.cs" caret="20956" fromTop="30" />
+      <File id="5DDEB0E5-9207-4348-8D15-9590C61B780A/d:Scripts/f:IngredientsSuggest.js" caret="756" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="_accuracy" priority="2" />
+      <Item value="var" priority="18" />
+      <Item value="filtered" priority="0" />
+      <Item value="matchedIngredients" priority="0" />
+      <Item value="sortedRecipes" priority="0" />
+      <Item value="using" priority="4" />
+      <Item value="new" priority="15" />
+      <Item value="DataContext`0" priority="8" />
+      <Item value="datacontext" priority="3" />
+      <Item value="Models" priority="6" />
+      <Item value="matchIngredients" priority="0" />
+      <Item value="dataContext" priority="9" />
+      <Item value="_requestSourceRestriction" priority="0" />
+      <Item value="_jsonRequestBehavior" priority="0" />
+      <Item value="ActionResult`0" priority="1" />
+      <Item value="return" priority="3" />
+      <Item value="View`0" priority="3" />
+      <Item value="Description" priority="4" />
+      <Item value="String`0" priority="2" />
+      <Item value="value" priority="0" />
+      <Item value="Html" priority="1" />
+      <Item value="List" priority="1" />
+      <Item value="Ingredient`0" priority="2" />
+      <Item value="key" priority="1" />
+      <Item value="Select`2" priority="2" />
+      <Item value="k" priority="3" />
+      <Item value="ingredientsRaw" priority="0" />
+      <Item value="NameValueCollectionExtensions`0" priority="0" />
+      <Item value="fc" priority="4" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="Auxiliary`0" priority="2" />
+      <Item value="Where`1" priority="0" />
+      <Item value="sbyte" priority="0" />
+      <Item value="s" priority="1" />
+      <Item value="REGEX_SPACE" priority="0" />
+      <Item value="regexSpace" priority="0" />
+      <Item value="i" priority="10" />
+      <Item value="ingredients" priority="1" />
+      <Item value="foreach" priority="0" />
+      <Item value="ingredient" priority="1" />
+      <Item value="dataContextIngredient" priority="0" />
+      <Item value="a" priority="1" />
+      <Item value="b" priority="0" />
+      <Item value="Entities" priority="1" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="Regex`0" priority="0" />
+      <Item value="Common" priority="1" />
+      <Item value="recipe" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="select" priority="0" />
+      <Item value="lol" priority="1" />
+      <Item value="RecipeDTO`0" priority="1" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="FullMatch" priority="0" />
+      <Item value="Model" priority="2" />
+      <Item value="r" priority="5" />
+      <Item value="public" priority="3" />
+      <Item value="Action`0" priority="0" />
+      <Item value="ValidateRequest" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Ingrediens`0" priority="0" />
+      <Item value="Ingredients" priority="1" />
+      <Item value="IngredientDTO`0" priority="1" />
+      <Item value="Amount" priority="0" />
+      <Item value="Unit" priority="0" />
+      <Item value="Double`0" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Environment`0" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="Controller`0" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="FirstOrDefault`1" priority="3" />
+      <Item value="Single`1" priority="0" />
+      <Item value="Max`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.DataContext">
+      <Item value="Ingredients" priority="5" />
+      <Item value="IngredientsRecipesRelations" priority="1" />
+      <Item value="Recipes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="All`1" priority="0" />
+      <Item value="DeleteAllOnSubmit`1" priority="2" />
+      <Item value="Select`2" priority="4" />
+      <Item value="Contains`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextArea`0" priority="0" />
+      <Item value="RenderPartial`0" priority="1" />
+      <Item value="BeginForm`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Iteration1.Models.HeaderConfiguration+MenuItem">
+      <Item value="AddRecipe" priority="0" />
+      <Item value="SearchRecipe" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith`0" priority="3" />
+      <Item value="Replace`0" priority="1" />
+      <Item value="IndexOf`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Cast`1" priority="0" />
+      <Item value="Join`4" priority="0" />
+      <Item value="Count`1" priority="1" />
+      <Item value="ToList`1" priority="3" />
+      <Item value="First`1" priority="0" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.FormCollection">
+      <Item value="Get`0" priority="3" />
+      <Item value="Keys" priority="0" />
+      <Item value="AllKeys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Iteration1.Common.Auxiliary">
+      <Item value="MatchIngredients`0" priority="1" />
+      <Item value="REGEX_SPACE" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Replace`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.Entities.Ingredient">
+      <Item value="Amount" priority="3" />
+      <Item value="Name" priority="2" />
+      <Item value="Id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.Entities.Recipe">
+      <Item value="Name" priority="2" />
+      <Item value="Description" priority="3" />
+      <Item value="Id" priority="0" />
+      <Item value="IngredientsRecipesRelations" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.Models.RecipeDTO">
+      <Item value="Ingredients" priority="0" />
+      <Item value="Description" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.Models.IngredientDTO">
+      <Item value="MatchAccuracy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Iteration1.Entities.IngredientsRecipesRelation">
+      <Item value="Recipe" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="MinValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.EntitySet`1">
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

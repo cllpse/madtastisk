@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost/Madtastisk" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Scripts/jquery-1.4.2.min.js" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/remove.png" publishTime="05/25/2010 17:29:16" />
+    <file relUrl="Content/Images/ui-bg_highlight-soft_25_0073ea_1x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Global.asax" publishTime="05/19/2010 19:41:04" />
+    <file relUrl="Scripts/Header.js" publishTime="05/26/2010 20:12:40" />
+    <file relUrl="Content/Images/ui-bg_highlight-soft_50_dddddd_1x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="App_Data/Iteration1.mdf" publishTime="06/02/2010 01:43:36" />
+    <file relUrl="Content/ShowRecipe.css" publishTime="05/30/2010 23:34:12" />
+    <file relUrl="Content/Reset.css" publishTime="05/25/2010 16:00:33" />
+    <file relUrl="Content/AddRecipe.css" publishTime="05/30/2010 23:27:19" />
+    <file relUrl="Scripts/AddRecipe.js" publishTime="05/26/2010 14:44:11" />
+    <file relUrl="Views/Shared/Madtastisk.Master" publishTime="05/25/2010 16:52:16" />
+    <file relUrl="bin/Library.dll" publishTime="05/24/2010 11:55:41" />
+    <file relUrl="bin/Iteration1.dll" publishTime="06/02/2010 00:02:39" />
+    <file relUrl="Scripts/RecipesSuggest.js" publishTime="05/25/2010 16:47:20" />
+    <file relUrl="Content/SearchRecipe.css" publishTime="05/25/2010 16:02:12" />
+    <file relUrl="Content/Images/ui-bg_flat_55_ffffff_40x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-bg_flat_75_ffffff_40x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-icons_ffffff_256x240.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Scripts/jquery-ui-1.8.custom.min.js" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-icons_0073ea_256x240.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-bg_glass_65_ffffff_1x400.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Views/Shared/Header.ascx" publishTime="05/25/2010 16:49:10" />
+    <file relUrl="Views/Shared/RecipesSuggest.ascx" publishTime="05/25/2010 17:45:28" />
+    <file relUrl="bin/Library.pdb" publishTime="05/24/2010 11:55:41" />
+    <file relUrl="Content/Images/ui-bg_flat_0_eeeeee_40x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Header.css" publishTime="05/26/2010 14:55:37" />
+    <file relUrl="Scripts/SearchRecipe.js" publishTime="05/25/2010 16:47:49" />
+    <file relUrl="Content/jquery-ui-1.8.custom.css" publishTime="05/25/2010 17:31:31" />
+    <file relUrl="Views/Opskrifter/Vis.aspx" publishTime="06/02/2010 00:03:35" />
+    <file relUrl="bin/Iteration1.pdb" publishTime="06/02/2010 00:02:39" />
+    <file relUrl="Scripts/Auxiliary.js" publishTime="05/26/2010 20:12:34" />
+    <file relUrl="Views/Opskrifter/Find.aspx" publishTime="06/02/2010 00:03:23" />
+    <file relUrl="Content/Images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="App_Data/Iteration1_log.ldf" publishTime="06/02/2010 01:43:36" />
+    <file relUrl="Views/Shared/IngredientsSuggest.ascx" publishTime="05/25/2010 17:45:22" />
+    <file relUrl="Views/Opskrifter/Del.aspx" publishTime="05/30/2010 23:25:35" />
+    <file relUrl="Web.config" publishTime="06/02/2010 01:45:57" />
+    <file relUrl="Content/Images/ui-icons_ff0084_256x240.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Scripts/IngredientsSuggest.js" publishTime="05/25/2010 19:54:23" />
+    <file relUrl="Scripts/jquery-1.4.2.js" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Views/Web.config" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Text.css" publishTime="05/30/2010 23:37:27" />
+    <file relUrl="Content/Images/ui-icons_666666_256x240.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Content/Images/ui-icons_454545_256x240.png" publishTime="05/17/2010 12:21:52" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="05/17/2010 12:21:52" />
+  </publishProfile>
+</publishData>
