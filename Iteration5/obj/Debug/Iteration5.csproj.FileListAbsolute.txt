@@ -1,5 +1,0 @@
-C:\Users\Administrator\Documents\My Dropbox\Eksamen\Website\Iteration5\bin\Iteration5.dll
-C:\Users\Administrator\Documents\My Dropbox\Eksamen\Website\Iteration5\bin\Iteration5.pdb
-C:\Users\Administrator\Documents\My Dropbox\Eksamen\Website\Iteration5\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\My Dropbox\Eksamen\Website\Iteration5\obj\Debug\Iteration5.dll
-C:\Users\Administrator\Documents\My Dropbox\Eksamen\Website\Iteration5\obj\Debug\Iteration5.pdb
